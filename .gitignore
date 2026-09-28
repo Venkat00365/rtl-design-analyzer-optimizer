@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+*.spec
+.venv/
+venv/
+env/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# App-generated output (don't commit generated reports/screenshots)
+reports/*.html
+reports/*.json
+reports/*.csv
+reports/*.png
+*.tmp
+
+# Secrets (never commit)
+.env
+*.pem
+*.key
